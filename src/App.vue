@@ -14,6 +14,7 @@ let a = 1
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />
+  <el-button type="primary" size="default" round>确认</el-button>
 </template>
 
 <style scoped>
