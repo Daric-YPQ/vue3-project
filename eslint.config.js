@@ -3,7 +3,6 @@ import pluginJs from "@eslint/js";
 import tseslint from "typescript-eslint";
 import pluginVue from "eslint-plugin-vue";
 
-
 export default [
   {languageOptions: { globals: globals.browser }},
   pluginJs.configs.recommended,
